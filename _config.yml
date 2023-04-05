@@ -24,9 +24,11 @@ github_username:  richard-kung
 
 # Build settings
 markdown: kramdown
-theme: cayman
+#theme: minima
+remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
